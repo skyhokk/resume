@@ -5,20 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моё резюме</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    .container {
+       
+            padding-top: 20px;
+            margin: auto;     
+    }
+
+    @media (max-width: 650px) {
+            .container{
+                font-size: 1.5rem;
+                padding: 10px;
+                text-align: center;
+            }
+        }
+    </style>
+
+
 </head>
 <body>
-    <img src="IIN.png" width="100">
+
+<class="container">
+
+    <img src="IIN.png" class="title image">
+    
+    <div class="title about">
     <h1>Щур Андрей</h1>
     <p>Тут что-то обо мне </p>
     <P>Когда не знаешь, <strong>с чего начать</strong>, но всё равно продолжаешь набор текста</P>
     <br>
+    <p>Я в соцсетях:</p>
+    <p>
+        <a class="telega" href="https://t.me/Andrey_Chshur" target="_blank">Telegram </a>
+        |
+        <a class="youtube" href="https://www.youtube.com/c/vanzai" target="_blank">YouTube</a>
+        |
+        </p>    
+</div>
+<br>
+
+    <div class="hobi">
     Мои хобби:
     <ol>
-        <li>Компьютерные <strong>игры</strong></li>
-        <li>Приготовление <strong>еды</strong></li>
+        <li>Компьютерные игры</li>
+        <li>Приготовление еды</li>
     </ol>
+    </div>
     
-    <table>
+    <br>
+
+    <table class="table">
         <thead>
             <tr>
             <th>Наименование организации</th>
@@ -39,7 +76,7 @@
             <td>2012-2016</td>
         </tr>
         <tr>
-            <td ><a href="https://www.technodom.kz/">АО "Technodom Operator"</a></td>
+            <td><a href="https://www.technodom.kz/">АО "Technodom Operator"</a></td>
             <td>Продавец-консультант</td>
             <td>2016-2018</td>
         </tr>
@@ -57,40 +94,36 @@
 
     </table>
         <hr>
-    <p>Я в соцсетях:</p>
-    <p>
-        <a href="https://t.me/Andrey_Chshur" target="_blank">Telegram </a>
-        |
-        <a href="https://www.youtube.com/c/vanzai" target="_blank">YouTube</a>
-        |
-            
-    </p>
-    
+
+
     <br>
+
+    <div class="contact">
     <h2>Связаться со мной</h2>
     <form>
         <div>
             <label for="text1">Ваше имя</label>
             <input type="text" id = "text1" placeholder="Введите имя">
         </div>
-
+<br>
         <div>
             <label for="text2">Ваше email</label>
             <input type="text" id = "text2" placeholder="Введите email">
         </div>
-       
+       <br>
+
         <div>
             <label for="message">Ваше сообщение</label>
             <br>
-            <textarea id="message" cols="50" rows="10" placeholder="Наберите ваше сообщение...">
+            <textarea id="message" rows="10" cols="50"
+            placeholder="Напишите здесь что-нибудь...">
             </textarea>
         </div>
 
-        <button><strong>Отправить!</strong></button>
-
-
+        <button class="btn">Отправить!</button>
     </form>
+    </div>
 
-
+</div>
 </body>
 </html>

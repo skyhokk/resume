@@ -1,0 +1,169 @@
+body {
+font-size: 16px;
+font-family: Roboto;
+font-weight: 450;
+background: #dbd5d1;
+color: rgb(43, 40, 39);
+}
+
+table {
+    box-shadow: 4px 4px 14px rgb(202, 182, 182);
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+thead,
+tfoot {
+    background-color: #9ba8a5;
+    color: rgb(0, 0, 0);
+}
+
+
+tbody {
+    background-color: #ffffff;
+}
+
+
+caption {
+    padding: 15px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(15, 15, 15);
+    letter-spacing: 1.5px;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+td,
+th {
+    border: 0.5px solid rgb(184, 140, 140);
+    padding: 5px 10px;
+}
+
+td {
+    text-align: center;
+}
+
+.table a{
+    color: #f17224;
+    text-decoration: none;
+}
+
+.table a:hover {
+    color: #25aac5;
+}
+
+/*.about {
+    box-shadow: 5px 5px 14px rgb(199, 118, 64); ;
+    background: coral;
+   padding-left: 10px;
+    padding-bottom: 1px;
+    border-radius: 0.5em; 
+ }*/
+    
+
+
+.hobi {
+   
+    box-shadow: 5px 5px 14px rgb(96, 184, 165); ;
+    background: rgb(157, 236, 174);
+    margin: 10px 5px 10px 0px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    border-radius: 0.5em;
+
+}
+
+/*.social {
+    box-shadow: 5px 5px 14px rgb(177, 189, 159);
+    background: rgb(252, 250, 251);
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 0.5em;
+
+}*/
+
+.telega{
+    color: rgb(34, 152, 200);
+    text-decoration: none;
+}
+
+.youtube{
+    color: rgb(213, 24, 44);
+    text-decoration: none;
+}
+
+.contact {
+    box-shadow: 5px 5px 14px rgb(149, 154, 206);
+    background: rgb(96, 130, 158);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 0.5px;
+    border-radius: 0.5em;
+
+}
+
+.btn {
+    background: rgb(146, 201, 19);
+    padding: 15px 20px;
+    color: rgb(29, 26, 27);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+   }
+
+.table td:hover {
+    font-size:smaller;
+    background: #c265a3;
+}
+   
+
+
+.hobi ol {
+    list-style: none;
+    line-height: 2;
+    margin: 10px;
+    padding: 1px;
+}
+
+.hobi ol li:hover {
+    font-size: large;
+    list-style: circle;
+}
+
+
+
+.title {
+    width: 320px;
+    /*background: #383535;*/
+    display: inline-block;;
+    
+ }
+
+.about {
+   
+    width: auto;
+    margin-left: 10px;
+}
+
+.about h1 {
+  padding-bottom: 0;
+  margin: 0;
+
+}
+
+.about p {
+    font-size: 20px;
+    padding-top: 15px;
+    margin: 0;
+    line-height: 25px;
+  }
+
+
